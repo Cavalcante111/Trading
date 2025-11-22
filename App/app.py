@@ -38,7 +38,7 @@ def load_data(league, season):
         
     if selected_league == 'Brasil' :
         url = "https://www.football-data.co.uk/new/BRA.csv"
-    else
+    else :
         url = "https://www.football-data.co.uk/mmz4281/" + season + "/" + league + ".csv"
     data = pd.read_csv(url)
     return data
