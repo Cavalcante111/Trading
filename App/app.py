@@ -2,7 +2,8 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 
-st.title("WebApp Extraindo Dados de Futebol")
+st.title("WebApp 
+Extraindo Dados de Futebol")
 
 st.sidebar.header("Leagues")
 selected_league = st.sidebar.selectbox('League', ['England', 'Germany', 'Italy', 'Spain', 'France', 'Brasil'])
