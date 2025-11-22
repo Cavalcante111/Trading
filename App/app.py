@@ -36,7 +36,7 @@ def load_data(league, season):
 
 df = load_data(selected_league, selected_season)
 
-st.subheader ('DataFrame: ' + selected_league)
+st.subheader("DataFrame: " + selected_league)
 st.dataframe(df)
 
 
